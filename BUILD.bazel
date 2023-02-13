@@ -2,5 +2,5 @@ cc_library(
     name = "bulletproofs",
     srcs = glob(["src/*.cpp"]),
     hdrs = glob(["src/*.hpp"]),
-    visibility = ["//__pkg__"],
+    visibility = ["//visibility:public"]
 )
